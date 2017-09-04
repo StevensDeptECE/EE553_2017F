@@ -1,0 +1,3 @@
+C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/session01.dir
+C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/rebuild_cache.dir

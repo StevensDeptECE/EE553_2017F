@@ -1,0 +1,510 @@
+The system is: Windows - 10.0.15063 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/bin/haskell/8.0.2-a/mingw/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/bin/haskell/8.0.2-a/mingw/bin/g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/3.8.2/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/msys64/mingw64/bin/mingw32-make.exe" "cmTC_f6b37/fast"
+D:/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_f6b37.dir\build.make CMakeFiles/cmTC_f6b37.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6b37.dir/testCCompiler.c.obj
+D:\bin\haskell\8.0.2-a\mingw\bin\gcc.exe    -o CMakeFiles\cmTC_f6b37.dir\testCCompiler.c.obj   -c "C:\Users\Dov Kruger\git\EE553_2017F\session01\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c"
+Linking C executable cmTC_f6b37.exe
+D:\bin\Clion\bin\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_f6b37.dir\link.txt --verbose=1
+D:\bin\Clion\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_f6b37.dir/objects.a
+D:\bin\haskell\8.0.2-a\mingw\bin\ar.exe cr CMakeFiles\cmTC_f6b37.dir/objects.a @CMakeFiles\cmTC_f6b37.dir\objects1.rsp
+D:\bin\haskell\8.0.2-a\mingw\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_f6b37.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f6b37.exe -Wl,--out-implib,libcmTC_f6b37.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f6b37.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/msys64/mingw64/bin/mingw32-make.exe" "cmTC_f6cf5/fast"
+D:/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_f6cf5.dir\build.make CMakeFiles/cmTC_f6cf5.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6cf5.dir/CMakeCCompilerABI.c.obj
+D:\bin\haskell\8.0.2-a\mingw\bin\gcc.exe    -o CMakeFiles\cmTC_f6cf5.dir\CMakeCCompilerABI.c.obj   -c D:\bin\Clion\bin\cmake\share\cmake-3.8\Modules\CMakeCCompilerABI.c
+Linking C executable cmTC_f6cf5.exe
+D:\bin\Clion\bin\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_f6cf5.dir\link.txt --verbose=1
+D:\bin\Clion\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_f6cf5.dir/objects.a
+D:\bin\haskell\8.0.2-a\mingw\bin\ar.exe cr CMakeFiles\cmTC_f6cf5.dir/objects.a @CMakeFiles\cmTC_f6cf5.dir\objects1.rsp
+D:\bin\haskell\8.0.2-a\mingw\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_f6cf5.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f6cf5.exe -Wl,--out-implib,libcmTC_f6cf5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=D:\bin\haskell\8.0.2-a\mingw\bin/realgcc.exe
+COLLECT_LTO_WRAPPER=D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-5.2.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --with-gxx-include-dir=/mingw64/include/c++/5.2.0 --enable-bootstrap --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-version-specific-runtime-libs --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev3, Built by MSYS2 project' --with-bugurl=http://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld
+Thread model: posix
+gcc version 5.2.0 (Rev3, Built by MSYS2 project) 
+COMPILER_PATH=D:/bin/haskell/8.0.2-a/mingw/bin/;D:/bin/haskell/8.0.2-a/mingw/bin/../lib/;D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/;D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/;D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/;D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=D:/bin/haskell/8.0.2-a/mingw/bin/;D:/bin/haskell/8.0.2-a/mingw/bin/../lib/;D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/;D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/;D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/;D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../lib/;D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../x86_64-w64-mingw32/lib/;D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../
+COLLECT_GCC_OPTIONS='-B' 'D:\bin\haskell\8.0.2-a\mingw\bin' '-B' 'D:\bin\haskell\8.0.2-a\mingw\bin/../lib' '-B' 'D:\bin\haskell\8.0.2-a\mingw\bin/../lib/gcc/x86_64-w64-mingw32/5.2.0' '-B' 'D:\bin\haskell\8.0.2-a\mingw\bin/../libexec/gcc/x86_64-w64-mingw32/5.2.0' '-v' '-o' 'cmTC_f6cf5.exe' '-mtune=generic' '-march=x86-64'
+ D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/collect2.exe -plugin D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/liblto_plugin-0.dll -plugin-opt=D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\DOVKRU~1\AppData\Local\Temp\ccAGPFSY.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep -Bdynamic -o cmTC_f6cf5.exe D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/crtbegin.o -LD:/bin/haskell/8.0.2-a/mingw/bin -LD:/bin/haskell/8.0.2-a/mingw/bin/../lib -LD:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0 -LD:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0 -LD:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc -LD:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../lib -LD:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../x86_64-w64-mingw32/lib -LD:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../.. --whole-archive CMakeFiles\cmTC_f6cf5.dir/objects.a --no-whole-archive --out-implib libcmTC_f6cf5.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/crtend.o
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"D:/msys64/mingw64/bin/mingw32-make.exe" "cmTC_f6cf5/fast"]
+  ignore line: [D:/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_f6cf5.dir\build.make CMakeFiles/cmTC_f6cf5.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f6cf5.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [D:\bin\haskell\8.0.2-a\mingw\bin\gcc.exe    -o CMakeFiles\cmTC_f6cf5.dir\CMakeCCompilerABI.c.obj   -c D:\bin\Clion\bin\cmake\share\cmake-3.8\Modules\CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_f6cf5.exe]
+  ignore line: [D:\bin\Clion\bin\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_f6cf5.dir\link.txt --verbose=1]
+  ignore line: [D:\bin\Clion\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_f6cf5.dir/objects.a]
+  ignore line: [D:\bin\haskell\8.0.2-a\mingw\bin\ar.exe cr CMakeFiles\cmTC_f6cf5.dir/objects.a @CMakeFiles\cmTC_f6cf5.dir\objects1.rsp]
+  ignore line: [D:\bin\haskell\8.0.2-a\mingw\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_f6cf5.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f6cf5.exe -Wl,--out-implib,libcmTC_f6cf5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\bin\haskell\8.0.2-a\mingw\bin/realgcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/lto-wrapper.exe]
+  ignore line: [Target: x86_64-w64-mingw32]
+  ignore line: [Configured with: ../gcc-5.2.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --with-gxx-include-dir=/mingw64/include/c++/5.2.0 --enable-bootstrap --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-version-specific-runtime-libs --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev3, Built by MSYS2 project' --with-bugurl=http://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.2.0 (Rev3, Built by MSYS2 project) ]
+  ignore line: [COMPILER_PATH=D:/bin/haskell/8.0.2-a/mingw/bin/]
+  ignore line: [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/]
+  ignore line: [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/]
+  ignore line: [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/]
+  ignore line: [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/]
+  ignore line: [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../x86_64-w64-mingw32/bin/]
+  ignore line: [LIBRARY_PATH=D:/bin/haskell/8.0.2-a/mingw/bin/]
+  ignore line: [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/]
+  ignore line: [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/]
+  ignore line: [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/]
+  ignore line: [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/]
+  ignore line: [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../lib/]
+  ignore line: [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-B' 'D:\bin\haskell\8.0.2-a\mingw\bin' '-B' 'D:\bin\haskell\8.0.2-a\mingw\bin/../lib' '-B' 'D:\bin\haskell\8.0.2-a\mingw\bin/../lib/gcc/x86_64-w64-mingw32/5.2.0' '-B' 'D:\bin\haskell\8.0.2-a\mingw\bin/../libexec/gcc/x86_64-w64-mingw32/5.2.0' '-v' '-o' 'cmTC_f6cf5.exe' '-mtune=generic' '-march=x86-64']
+  link line: [ D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/collect2.exe -plugin D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/liblto_plugin-0.dll -plugin-opt=D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\DOVKRU~1\AppData\Local\Temp\ccAGPFSY.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep -Bdynamic -o cmTC_f6cf5.exe D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/crtbegin.o -LD:/bin/haskell/8.0.2-a/mingw/bin -LD:/bin/haskell/8.0.2-a/mingw/bin/../lib -LD:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0 -LD:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0 -LD:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc -LD:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../lib -LD:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../x86_64-w64-mingw32/lib -LD:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../.. --whole-archive CMakeFiles\cmTC_f6cf5.dir/objects.a --no-whole-archive --out-implib libcmTC_f6cf5.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/crtend.o]
+    arg [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\DOVKRU~1\AppData\Local\Temp\ccAGPFSY.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-m] ==> ignore
+    arg [i386pep] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f6cf5.exe] ==> ignore
+    arg [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> ignore
+    arg [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/crtbegin.o] ==> ignore
+    arg [-LD:/bin/haskell/8.0.2-a/mingw/bin] ==> dir [D:/bin/haskell/8.0.2-a/mingw/bin]
+    arg [-LD:/bin/haskell/8.0.2-a/mingw/bin/../lib] ==> dir [D:/bin/haskell/8.0.2-a/mingw/bin/../lib]
+    arg [-LD:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0] ==> dir [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0]
+    arg [-LD:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0] ==> dir [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0]
+    arg [-LD:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc] ==> dir [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc]
+    arg [-LD:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+    arg [-LD:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../lib] ==> dir [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../lib]
+    arg [-LD:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../x86_64-w64-mingw32/lib]
+    arg [-LD:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../..] ==> dir [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_f6cf5.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_f6cf5.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/crtend.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  collapse library dir [D:/bin/haskell/8.0.2-a/mingw/bin] ==> [D:/bin/haskell/8.0.2-a/mingw/bin]
+  collapse library dir [D:/bin/haskell/8.0.2-a/mingw/bin/../lib] ==> [D:/bin/haskell/8.0.2-a/mingw/lib]
+  collapse library dir [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0] ==> [D:/bin/haskell/8.0.2-a/mingw/lib/gcc/x86_64-w64-mingw32/5.2.0]
+  collapse library dir [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0] ==> [D:/bin/haskell/8.0.2-a/mingw/lib/gcc/x86_64-w64-mingw32/5.2.0]
+  collapse library dir [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc] ==> [D:/bin/haskell/8.0.2-a/mingw/lib/gcc]
+  collapse library dir [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [D:/bin/haskell/8.0.2-a/mingw/x86_64-w64-mingw32/lib]
+  collapse library dir [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../lib] ==> [D:/bin/haskell/8.0.2-a/mingw/lib]
+  collapse library dir [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../x86_64-w64-mingw32/lib] ==> [D:/bin/haskell/8.0.2-a/mingw/x86_64-w64-mingw32/lib]
+  collapse library dir [D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../..] ==> [D:/bin/haskell/8.0.2-a/mingw/lib]
+  implicit libs: [mingw32;moldname;mingwex;msvcrt;pthread;advapi32;shell32;user32;kernel32;mingw32;moldname;mingwex;msvcrt]
+  implicit dirs: [D:/bin/haskell/8.0.2-a/mingw/bin;D:/bin/haskell/8.0.2-a/mingw/lib;D:/bin/haskell/8.0.2-a/mingw/lib/gcc/x86_64-w64-mingw32/5.2.0;D:/bin/haskell/8.0.2-a/mingw/lib/gcc;D:/bin/haskell/8.0.2-a/mingw/x86_64-w64-mingw32/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/msys64/mingw64/bin/mingw32-make.exe" "cmTC_70252/fast"
+D:/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_70252.dir\build.make CMakeFiles/cmTC_70252.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70252.dir/feature_tests.c.obj
+D:\bin\haskell\8.0.2-a\mingw\bin\gcc.exe   -std=c11 -o CMakeFiles\cmTC_70252.dir\feature_tests.c.obj   -c "C:\Users\Dov Kruger\git\EE553_2017F\session01\cmake-build-debug\CMakeFiles\feature_tests.c"
+Linking C executable cmTC_70252.exe
+D:\bin\Clion\bin\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_70252.dir\link.txt --verbose=1
+D:\bin\Clion\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_70252.dir/objects.a
+D:\bin\haskell\8.0.2-a\mingw\bin\ar.exe cr CMakeFiles\cmTC_70252.dir/objects.a @CMakeFiles\cmTC_70252.dir\objects1.rsp
+D:\bin\haskell\8.0.2-a\mingw\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_70252.dir/objects.a -Wl,--no-whole-archive  -o cmTC_70252.exe -Wl,--out-implib,libcmTC_70252.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_70252.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/msys64/mingw64/bin/mingw32-make.exe" "cmTC_a1829/fast"
+D:/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_a1829.dir\build.make CMakeFiles/cmTC_a1829.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1829.dir/feature_tests.c.obj
+D:\bin\haskell\8.0.2-a\mingw\bin\gcc.exe   -std=c99 -o CMakeFiles\cmTC_a1829.dir\feature_tests.c.obj   -c "C:\Users\Dov Kruger\git\EE553_2017F\session01\cmake-build-debug\CMakeFiles\feature_tests.c"
+Linking C executable cmTC_a1829.exe
+D:\bin\Clion\bin\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_a1829.dir\link.txt --verbose=1
+D:\bin\Clion\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_a1829.dir/objects.a
+D:\bin\haskell\8.0.2-a\mingw\bin\ar.exe cr CMakeFiles\cmTC_a1829.dir/objects.a @CMakeFiles\cmTC_a1829.dir\objects1.rsp
+D:\bin\haskell\8.0.2-a\mingw\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_a1829.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a1829.exe -Wl,--out-implib,libcmTC_a1829.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a1829.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/msys64/mingw64/bin/mingw32-make.exe" "cmTC_a29f9/fast"
+D:/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_a29f9.dir\build.make CMakeFiles/cmTC_a29f9.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a29f9.dir/feature_tests.c.obj
+D:\bin\haskell\8.0.2-a\mingw\bin\gcc.exe   -std=c90 -o CMakeFiles\cmTC_a29f9.dir\feature_tests.c.obj   -c "C:\Users\Dov Kruger\git\EE553_2017F\session01\cmake-build-debug\CMakeFiles\feature_tests.c"
+Linking C executable cmTC_a29f9.exe
+D:\bin\Clion\bin\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_a29f9.dir\link.txt --verbose=1
+D:\bin\Clion\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_a29f9.dir/objects.a
+D:\bin\haskell\8.0.2-a\mingw\bin\ar.exe cr CMakeFiles\cmTC_a29f9.dir/objects.a @CMakeFiles\cmTC_a29f9.dir\objects1.rsp
+D:\bin\haskell\8.0.2-a\mingw\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_a29f9.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a29f9.exe -Wl,--out-implib,libcmTC_a29f9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a29f9.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/msys64/mingw64/bin/mingw32-make.exe" "cmTC_6cd28/fast"
+D:/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_6cd28.dir\build.make CMakeFiles/cmTC_6cd28.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6cd28.dir/testCXXCompiler.cxx.obj
+D:\bin\haskell\8.0.2-a\mingw\bin\g++.exe     -o CMakeFiles\cmTC_6cd28.dir\testCXXCompiler.cxx.obj -c "C:\Users\Dov Kruger\git\EE553_2017F\session01\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+Linking CXX executable cmTC_6cd28.exe
+D:\bin\Clion\bin\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_6cd28.dir\link.txt --verbose=1
+D:\bin\Clion\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_6cd28.dir/objects.a
+D:\bin\haskell\8.0.2-a\mingw\bin\ar.exe cr CMakeFiles\cmTC_6cd28.dir/objects.a @CMakeFiles\cmTC_6cd28.dir\objects1.rsp
+D:\bin\haskell\8.0.2-a\mingw\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_6cd28.dir/objects.a -Wl,--no-whole-archive  -o cmTC_6cd28.exe -Wl,--out-implib,libcmTC_6cd28.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_6cd28.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/msys64/mingw64/bin/mingw32-make.exe" "cmTC_f5b55/fast"
+D:/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_f5b55.dir\build.make CMakeFiles/cmTC_f5b55.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f5b55.dir/CMakeCXXCompilerABI.cpp.obj
+D:\bin\haskell\8.0.2-a\mingw\bin\g++.exe     -o CMakeFiles\cmTC_f5b55.dir\CMakeCXXCompilerABI.cpp.obj -c D:\bin\Clion\bin\cmake\share\cmake-3.8\Modules\CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_f5b55.exe
+D:\bin\Clion\bin\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_f5b55.dir\link.txt --verbose=1
+D:\bin\Clion\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_f5b55.dir/objects.a
+D:\bin\haskell\8.0.2-a\mingw\bin\ar.exe cr CMakeFiles\cmTC_f5b55.dir/objects.a @CMakeFiles\cmTC_f5b55.dir\objects1.rsp
+D:\bin\haskell\8.0.2-a\mingw\bin\g++.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_f5b55.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f5b55.exe -Wl,--out-implib,libcmTC_f5b55.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=D:\bin\haskell\8.0.2-a\mingw\bin\g++.exe
+COLLECT_LTO_WRAPPER=D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/lto-wrapper.exe
+Target: x86_64-w64-mingw32
+Configured with: ../gcc-5.2.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --with-gxx-include-dir=/mingw64/include/c++/5.2.0 --enable-bootstrap --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,objc,obj-c++,fortran,ada --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-version-specific-runtime-libs --disable-isl-version-check --enable-lto --enable-libgomp --disable-multilib --enable-checking=release --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev3, Built by MSYS2 project' --with-bugurl=http://sourceforge.net/projects/msys2 --with-gnu-as --with-gnu-ld
+Thread model: posix
+gcc version 5.2.0 (Rev3, Built by MSYS2 project) 
+COMPILER_PATH=D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/;D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/;D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../x86_64-w64-mingw32/bin/
+LIBRARY_PATH=D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/;D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/;D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../lib/;D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../../x86_64-w64-mingw32/lib/;D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f5b55.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/collect2.exe -plugin D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/liblto_plugin-0.dll -plugin-opt=D:/bin/haskell/8.0.2-a/mingw/bin/../lib/gcc/x86_64-w64-mingw32/5.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\DOVKRU~1\AppData\Local\Temp\ccKNBfH4.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt= ^ NtFI	<ÅË÷⁄»≈–øå©ˇˇ 6iå©ˇˇ0ëQÿÖªˇˇ@ëQÿÖªˇˇˇˇˇˇˇˇˇˇHÍ €                             ¿¶Öªˇˇ¿¶Öªˇˇ≈¶Öªˇˇl       È¥€                             –MÈÖªˇˇ–MÈÖªˇˇ∞–MÈÖªˇˇ       ‰ €    P å©ˇˇP å©ˇˇ         –NÈÖªˇˇ–NÈÖªˇˇ@–NÈÖªˇˇ-       È €    ê å©ˇˇê å©ˇˇ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                EFMfnY8ÅË÷⁄»≈–ì›å©ˇˇ        ›R     x$å©ˇˇ                Â?
+çîˇˇê’Ë çîˇˇ                x      † ¢     0%å©ˇˇ. .     0%å©ˇˇ                                                                                        \ D e v i c e \ H a r d d i s k V o l u m e 3 \ P r o g r a m   F i l e s \ D e l l \ S u p p o r t A s s i s t \ P C D o c t o r . T h e m e s . D s c . d l l   r n a l       ^FMfnÈ9ÅË÷⁄»≈Úå            ]Û                                                             x     ∫ º     ¿&å©ˇˇ. .     ¿&å©ˇˇ                                $ $     V'å©ˇˇ                                       \ D e v i c e \ H a r d d i s k V o l u m e 3 \ W i n d o w s \ S h e l l E x p e r i e n c e s \ W i n d o w s . U I . S o f t L a n d i n g . d l l : W o f C o m p r e s s e d D a t a       FMfnâ;ÅË÷⁄»≈Ú:    ]çîˇˇ}R     ∏ -å©ˇˇ                –;ÃçîˇˇÄ`Ûçîˇˇ]çîˇˇ @     x      h j     `(å©ˇˇ. .     `(å©ˇˇ                                                                                       \ D e v i c e \ H a r d d i s k V o l u m e 3 \ W i n d o w s \ S y s t e m 3 2 \ u t i l d l l . d l l     A   Ntfo        \ U s e r s \ D o v   K r u g e r \ A p p D a t a \ L o c a l \ K a l t u r a \ K a l t u r a \ M e d i a \ 5 3 1 e d e 4 f - c 4 b 4 - 4 1 4 4 - a 7 2 c - 9 2 2 1 6 3 0 d e 2 4 7             FIcs©5ÅË÷⁄»≈        –9Hçîˇˇ Jbçîˇˇ»)å©ˇˇ        ®ñÀå©ˇˇPJbçîˇˇ@˚Ôçîˇˇ                              w∞å©ˇˇ`;8å©ˇˇ        `ç˜çîˇˇP¡;å©ˇˇ        –Vqå©ˇˇ   ÌáùéÄ             Z Tokei6ÅË÷⁄»≈p∫å©ˇˇ∞»
+å©ˇˇ@F◊— ¯ˇˇ                               h Ç            çuÇå©ˇˇ*SYSTEM*        o ®    Á              êÎL∂&u @]z çîˇˇ˜í      êË±`   êË±`   êË±`                                              §             Vi01P/å©ˇˇ        ‡=Qå©ˇˇ‡=Qå©ˇˇÏ=Qå©ˇˇ       (   ©ˇˇ      0¿å©ˇˇ               P/å©ˇˇ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ∞Ê•å©ˇˇ                    Vi01                                                                                                                                                                                                                                                                                                                                        z\å©ˇˇ                        †/å©ˇˇ        ¨/å©ˇˇ       º/å©ˇˇ       »/å©ˇˇ       ‘/å©ˇˇ`                                                  @                          @¬| çîˇˇ j NtfF	|Ì÷⁄»≈†ìå©ˇˇ c≈å©ˇˇ                       8`ïå©ˇˇ8`ïå©ˇˇH`ïå©ˇˇH`ïå©ˇˇ        HòäçîˇˇÄ°Dˇåîˇˇ                /d+†“ŸÇs}A”ŸÇs}A”ŸÇs}A”                             ŸÇs}A”                                        ®ù 
+   åx 
+   †ù 
+                 `K0[                            Ê                        »@ 0‡]fçîˇˇ                             ®]fçîˇˇàaïå©ˇˇàaïå©ˇˇ        Haïå©ˇˇ                        ¿aïå©ˇˇ¿aïå©ˇˇPaïå©ˇˇ                `wN‰ˇˇ `wN‰ˇˇ`ïå©ˇˇÄ°Dˇåîˇˇ                                                       †        
+     PyQ;	¯ˇˇ        H^fçîˇˇ                        êbïå©ˇˇ        Ä¨Ãå©ˇˇ        ·M     –bïå©ˇˇpbïå©ˇˇ             ‡≈Ïå©ˇˇPaïå©ˇˇ                                                                    cïå©ˇˇ cïå©ˇˇ                (                                       hcïå©ˇˇhcïå©ˇˇ                                                ®cïå©ˇˇ®cïå©ˇˇ                                        0                            dïå©ˇˇ dïå©ˇˇ                                                                                                                                                                                                                          Ë     ®˚å©ˇˇò∏«å©ˇˇP·Íå©ˇˇ        `ïå©ˇˇ8`ïå©ˇˇ8`ïå©ˇˇ "     Ïeïå©ˇˇpD¢å©ˇˇ                 "      eïå©ˇˇ                        xeïå©ˇˇxeïå©ˇˇ¨        ∏  î19    6                       àeïå©ˇˇ         o o b e                           O O B E                             a	SeTdzÌ÷⁄»≈¿†√å©ˇˇ   c˘ÄâF	<Ã™‚ÅÔ   \      $            c˘ÄâF	<Ã™‚ÅÔÈ                      †            ØG         jAlMs©zÌ÷⁄»≈∞fïå©ˇˇ∞fïå©ˇˇ                                                                                                                                                                                                                                                                                (                     ¨ Ä    Ñã              FMfn	tÌ÷⁄»≈Úú    ]çîˇˇ      x^∏å©ˇˇ                ∞…ì çîˇˇ        ]çîˇˇ Ä     x       Ã     ‡hïå©ˇˇ. .     ‡hïå©ˇˇ                      ¢iïå©ˇˇ                ` `     Jiïå©ˇˇ< <     iïå©ˇˇ       \ D e v i c e \ H a r d d i s k V o l u m e 3 \ W i n d o w s \ S y s t e m 3 2 \ w i n e v t \ L o g s \ M i c r o s o f t - W i n d o w s - A p p L o c k e r % 4 M S I   a n d   S c r i p t . e v t x       	FSimπuÌ÷⁄»≈   õ r s \ D o v   K r u g e r \ A p p D a t a \ L o c a l \ M i c r o s o f t \ W i n d o w s \ E x p l o r e r             	 FreeIvÌ÷⁄»≈SeAtYvÌ÷⁄»≈       –À{å©ˇˇ–À{å©ˇˇ        Äjïå©ˇˇÄjïå©ˇˇ	 Vi49ôvÌ÷⁄»≈@{må©ˇˇ‡Ïå©ˇˇ∞å©ˇˇ `Á ÄÔ   êÄÔ  »Ìˆå©ˇˇòsnå©ˇˇ                       jïå©ˇˇjïå©ˇˇ kïå©ˇˇ kïå©ˇˇ        ó°bÀ		IoNm)wÌ÷⁄»≈\ W i n d o w s \ S y s t e m 3 2 \ s h f o l d e r . d l l   k 6 4 \ v 3 . 0 \ W P F \ S H F O L D E R . D L L   g \ I d s e   	 SLS πwÌ÷⁄»≈Äõå©ˇˇ∞≠å©ˇˇ¸]^ñµ'çàÃ)ª\ÌSÀ]Tƒ>0í∞É=?∞Uœ¥’¸>{bcÙe˜fL∑.;‰÷eÊ˚÷Z1åNèw=¢†Lw!Á=’Ïx œüs]£ıorF$<‹Ç≈VÎ√YZwêöGú≥⁄⁄L6ÍFâˇÊJ_Bl+J£ãY∞Æ-Ñ±*ö4ã,§j>5Xtè 	J]4k]ú8EûG«9}6[têë#n≠m
+CÌ⁄=wÔ•cáÑ8ÃzÌP≠@"ÖX@             	IoNm©pÌ÷⁄»≈\ W i n d o w s \ S y s t e m 3 2 \ A b o v e L o c k A p p H o s t . d l l                  †            ØG         	- Free9qÌ÷⁄»≈@lÀå©ˇˇ`<å©ˇˇ1Øå©ˇˇL     ö            $             §  ”d‹å#”  ÅÔÈ     :   `            ù         \ W i n d o w s \ S y s t e m 3 2 \ u s e r 3 2 . d l l   ÅÔ  5 A } e   Vi02	rÌ÷⁄»≈éå©ˇˇê»På©ˇˇ                       8nïå©ˇˇ8nïå©ˇˇò∆!å©ˇˇò∆!å©ˇˇ                                yrÌ÷⁄»≈Vi12ârÌ÷⁄»≈‡pπå©ˇˇå           \       $  –.~ﬂ   ¿?~ﬂ                     ˇ Ä¢¬å©ˇˇ                                     à@gå©ˇˇ8á∞å©ˇˇ–yå©ˇˇ                               FIcsIsÌ÷⁄»≈@ËVå©ˇˇ¿√å©ˇˇ        hoïå©ˇˇ                ‡Ûí	çîˇˇ@˚Ôçîˇˇ                               ∞W,å©ˇˇ†Å@å©ˇˇ       `ç˜çîˇˇ@˚Ôå©ˇˇ        êr#å©ˇˇ   c ûX             ˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇ                                                            ˇˇˇ ˇˇˇ ’ˇˇ  +Ä                                                                 ˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇ        ˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇ                                                                    ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ ˇˇˇ  hToke	|Ì÷⁄»≈     §   åîˇˇÄÜ.çîˇˇ                               &     ÄÜ.çîˇˇO1tå©ˇˇAdvapi  œ     gz     ‰              êÎL∂&u ∞ƒ„çîˇˇù       Ä`      Ä`      Ä`                                              Ñ                 dôå©ˇˇ        0Líå©ˇˇ0Líå©ˇˇ<Líå©ˇˇ       (            0ñ”å©ˇˇÁ             dôå©ˇˇ             Ä                                                                                                   @       v                                            Ä                                                                                                                                                                                                                                                                                                                                                             0Få©ˇˇ                                                                                                                                                                                                                                                                                                                                                                †6xå©ˇˇ                        †eôå©ˇˇ        ¨eôå©ˇˇ`       ∏eôå©ˇˇ       ƒeôå©ˇˇ       ‘eôå©ˇˇ       ‡eôå©ˇˇ       Ïeôå©ˇˇ       ¯eôå©ˇˇ       fôå©ˇˇ       8fôå©ˇˇ  ¿    Lfôå©ˇˇ                     @                    !                               P   ∆¿F6ŒZÊ8ÍÁZbÄµÕ     P   
+ÿb:Ÿ∆eµÎ÷m/ãxÉ9\            Œ                                      Free        h# Free Dˇ    PTºå©ˇˇ@ußå©ˇˇÄ…kå©ˇˇ    åîˇˇ                                        $ Ç                                                            ‡Õãçîˇˇ ‡     †    ÄFMfn9{Ì÷⁄»≈Pqå©ˇˇ        ıe     Xgôå©ˇˇ                ∞ó%çîˇˇ@6[ çîˇˇ                x      ê í     hôå©ˇˇ. .     hôå©ˇˇ                                                                                        \ D e v i c e \ H a r d d i s k V o l u m e 3 \ W i n d o w s \ L o g s \ d o s v c \ d o s v c . 2 0 1 7 0 9 0 1 _ 0 2 3 4 3 6 _ 7 6 0 . e t l   d D a t a     #FIcsπtÌ÷⁄»≈        –9Hçîˇˇp›çîˇˇÿhôå©ˇˇ                @q›çîˇˇ@˚Ôçîˇˇ                             ¬å©ˇˇ0∂»å©ˇˇ        `ç˜çîˇˇ†“«å©ˇˇ        ¿qå©ˇˇ   °&û√k             Ntf0yuÌ÷⁄»≈        ÿû<å©ˇˇ•"+'f    x©ˇ  MiSn©uÌ÷⁄»≈                        @Ê"çîˇˇ       ì†å©ˇˇ»Rå©ˇˇ0ÙççîˇˇFIcsêÎL∂&u         –9Hçîˇˇ‡»ãçîˇˇjôå©ˇˇ                0…ãçîˇˇ@˚Ôçîˇˇ                             –˝öå©ˇˇPnöå©ˇˇ        `ç˜çîˇˇ∞=âå©ˇˇ        `àå©ˇˇ   TËúM,              UNtff       @H
+  }U                            oôå©ˇˇ oôå©ˇˇòlôå©ˇˇòlôå©ˇˇ        ¿·jR‰ˇˇÄ°DˇåîˇˇÄãçîˇˇpãçîˇˇ é¸cÍ— é¸cÍ—≤Î›?º”[∆?º” Ä     ÿ                   [∆?º”        ¿ÇØå©ˇˇ                                                              –	±E                     †„å©ˇˇ                        H`0¿ãçîˇˇpãçîˇˇ Ä     ÿ     ÿ     àãçîˇˇ8lôå©ˇˇ8lôå©ˇˇ        ¯kôå©ˇˇ†Ûå©ˇˇ¿ãçîˇˇ        plôå©ˇˇplôå©ˇˇ lôå©ˇˇ        é      ¯jôå©ˇˇ¯jôå©ˇˇ¿jôå©ˇˇÄ°Dˇåîˇˇ0                                                    Ä                               (ãçîˇˇ                '       @môå©ˇˇ        @}Zå©ˇˇ–Ë0å©ˇˇruP     Ämôå©ˇˇ môå©ˇˇ              ÿ=å©ˇˇ lôå©ˇˇ              môå©ˇˇ              ¬                          Ä     pnôå©ˇˇpnôå©ˇˇ                Ä                                                       (nôå©ˇˇ(nôå©ˇˇ                	à Ä  A      b x     pîå©ˇˇ:       –môå©ˇˇ–môå©ˇˇ`oôå©ˇˇ`oôå©ˇˇ–nôå©ˇˇ                       °       yãçîˇˇ                Ë (   (‰ôå©ˇˇ®ÛBå©ˇˇPÒBå©ˇˇ        ¿jôå©ˇˇËjôå©ˇˇËjôå©ˇˇ( (     
+˝áå©ˇˇ‡)Äå©ˇˇ        p‰ôå©ˇˇ( (     ‚¸áå©ˇˇ                        Änôå©ˇˇÄnôå©ˇˇ               Ës)                   GH‘-    †¸áå©ˇˇ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        d: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/msys64/mingw64/bin/mingw32-make.exe" "cmTC_669a5/fast"
+D:/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_669a5.dir\build.make CMakeFiles/cmTC_669a5.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_669a5.dir/feature_tests.cxx.obj
+D:\bin\haskell\8.0.2-a\mingw\bin\g++.exe    -std=c++11 -o CMakeFiles\cmTC_669a5.dir\feature_tests.cxx.obj -c "C:\Users\Dov Kruger\git\EE553_2017F\session01\cmake-build-debug\CMakeFiles\feature_tests.cxx"
+Linking CXX executable cmTC_669a5.exe
+D:\bin\Clion\bin\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_669a5.dir\link.txt --verbose=1
+D:\bin\Clion\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_669a5.dir/objects.a
+D:\bin\haskell\8.0.2-a\mingw\bin\ar.exe cr CMakeFiles\cmTC_669a5.dir/objects.a @CMakeFiles\cmTC_669a5.dir\objects1.rsp
+D:\bin\haskell\8.0.2-a\mingw\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_669a5.dir/objects.a -Wl,--no-whole-archive  -o cmTC_669a5.exe -Wl,--out-implib,libcmTC_669a5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_669a5.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/msys64/mingw64/bin/mingw32-make.exe" "cmTC_f88b8/fast"
+D:/msys64/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTC_f88b8.dir\build.make CMakeFiles/cmTC_f88b8.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f88b8.dir/feature_tests.cxx.obj
+D:\bin\haskell\8.0.2-a\mingw\bin\g++.exe    -std=c++98 -o CMakeFiles\cmTC_f88b8.dir\feature_tests.cxx.obj -c "C:\Users\Dov Kruger\git\EE553_2017F\session01\cmake-build-debug\CMakeFiles\feature_tests.cxx"
+Linking CXX executable cmTC_f88b8.exe
+D:\bin\Clion\bin\cmake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_f88b8.dir\link.txt --verbose=1
+D:\bin\Clion\bin\cmake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_f88b8.dir/objects.a
+D:\bin\haskell\8.0.2-a\mingw\bin\ar.exe cr CMakeFiles\cmTC_f88b8.dir/objects.a @CMakeFiles\cmTC_f88b8.dir\objects1.rsp
+D:\bin\haskell\8.0.2-a\mingw\bin\g++.exe      -Wl,--whole-archive CMakeFiles\cmTC_f88b8.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f88b8.exe -Wl,--out-implib,libcmTC_f88b8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f88b8.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Dov Kruger/git/EE553_2017F/session01/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

@@ -1,0 +1,21 @@
+int = 32 bits on typical laptop/desktop
+int = on my laptop = 32 bits
+int on Arduino = 16 bits
+
+3 bit int
+signed		unsigned
+0	000	0
+1	001	1
+2	010	2
+3	011	3
+-4	100	4
+-3	101	5
+-2	110	6
+-1	111	7
+
+7 + 1 unsigned = 1000
+
+32-bit signed int approx
+-2100000000 ... +2100000000
+
+11212512 * 1251251251 = -1114... OVERFLOW!
