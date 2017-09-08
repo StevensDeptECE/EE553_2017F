@@ -3,16 +3,38 @@
 using namespace std;
 
 //  print out the string n times   cout << msg will print
+ void print(string msg, int n) {
+	while (n > 0) {
+		cout << msg;
+		n--;
+	}
+}
+
+#if 0
 void print(string msg, int n) {
-
-
+	for (int i = 0; i < n; i++)
+		cout << msg;
 }
 
+void print(string msg, int n) {
+	while (n-- > 0)
+		cout << msg;
+}
+#endif
+
+// return a string repeating msg n times
+// with a space between each copy, example "hello", 3 --> "hello hello hello"
 string repeat(string msg, int n) {
-  string big = msg;
- 	big += msg; // msg twice
+
+	return "your answer goes here";
 }
 
+// return a string that is the opposite order, example hello --> olleh
+string reverse(string msg) {
+	return "your answer goes here!";
+}
+
+// return the next character in ASCII, for example 'a' + 1 --> 'b'
 char nextChar(char c) {
 
 }
@@ -22,7 +44,8 @@ int factorial(int n) {
 	
 
 int main() {
-	print("hello", 3);
+	int count = 3;
+	print("hello", count);
 	string big = repeat("yo", 9);
 	cout << big << '\n';
 	cout << nextChar('a') << '\n';
