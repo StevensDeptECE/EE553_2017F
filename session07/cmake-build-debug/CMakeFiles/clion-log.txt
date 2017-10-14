@@ -1,0 +1,10 @@
+D:\bin\CLion2017.2.2\bin\cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\dkruger\git\EE553_2017F\session07
+CMake Error at CMakeLists.txt:10 (add_executable):
+  add_executable cannot create target "account" because another target with
+  the same name already exists.  The existing target is an executable created
+  in source directory "C:/Users/dkruger/git/EE553_2017F/session07".  See
+  documentation for policy CMP0002 for more details.
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/dkruger/git/EE553_2017F/session07/cmake-build-debug/CMakeFiles/CMakeOutput.log".
