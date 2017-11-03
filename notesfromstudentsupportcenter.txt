@@ -1,0 +1,39 @@
+Dear class,
+
+Yifan Qu from the Graduate student support center has reported back
+that a lot of people in C++ class are confused on certain specific
+issues.  This is great feedback, and while I would be happy if you individually emailed me questions, this is a great way to assess what information people are missing.
+
+So first of all, thanks Yifan for a great job first week.
+
+Now, let's make sure that everyone reads up to learn the missing facts.
+
+Everyone should have mastered integer computation.  The basic 5 operators are +, -, *, /, %
+We also worked heavily with floating point (float, double, long double) and there the basic operations are +,-,*,/
+(no mod for floating point)
+We covered char (one letter) and bool (true/false), but fairly quickly.
+
+Please review my quick reference guide at least through page 50.  I have just edited and added some missing information under loops.
+
+Here is what people seem to be missing.
+
+Comparison operators:
+< <= > >= == !=
+
+logical operators
+
+bool x = a < b && a << c; // two ampersands means a<b AND a<c
+bool y = a < b || a < c;  // two vertical bars means a<c OR a<c
+
+NOT uses the exclamation point.  For example
+
+ifstream f("hw1a.dat");
+if (!f.eof()) {  // if f is NOT at end of file, do something
+
+}
+
+We went through statements very quickly.
+Please make sure you can handle while loops, for loops, do..while, if statements,
+
+breaking out of loops with break, and skipping iterations with continue.
+

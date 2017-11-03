@@ -1,0 +1,18 @@
+Point(x,y)
+
+a set of points (x,y)
+
+define a set of centers. (also points)
+each center has a distance to all the points
+
+. .                        .
+
+	    *
+
+
+     .
+
+global search go in a grid for what location of the center (*) is the sum of distance minimized to all points?
+
+output is (x,y) of the center
+
