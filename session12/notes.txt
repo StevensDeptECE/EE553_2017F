@@ -1,0 +1,14 @@
+inline functions
+function templates
+template classes
+functors
+exception handling
+threading
+semaphores
+openmp
+
+
+HW: JulianDate
+HW: bubbleSort  : sort any value. sort any value on any key
+HW: GrowArray
+HW: Multithreaded prime numbers
