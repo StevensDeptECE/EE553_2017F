@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OPENJPEG"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\src\;CMake Files\src\lib\;CMake Files\src\lib\openjp2\;CMake Files\src\bin\;CMake Files\src\bin\common\;CMake Files\src\bin\jp2\;CMake Files\src\bin\wx\;CMake Files\thirdparty\;CMake Files\wrapping\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="openjp2">
+				<Option output="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/bin/libopenjp2.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/lib/openjp2"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPJ_EXPORTS"/>
+					<Add option="-DMUTEX_win32"/>
+					<Add option="-DMUTEX_pthread"/>
+					<Add directory="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/lib/openjp2"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include/c++/6.2.0"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include/c++/6.2.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include/c++/6.2.0/backward"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/include"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/include-fixed"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/lib/openjp2/Makefile&quot;  VERBOSE=1 openjp2"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/lib/openjp2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/lib/openjp2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/lib/openjp2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="openjp2/fast">
+				<Option output="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/bin/libopenjp2.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/lib/openjp2"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPJ_EXPORTS"/>
+					<Add option="-DMUTEX_win32"/>
+					<Add option="-DMUTEX_pthread"/>
+					<Add directory="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/lib/openjp2"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include/c++/6.2.0"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include/c++/6.2.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include/c++/6.2.0/backward"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/include"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/include-fixed"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/lib/openjp2/Makefile&quot;  VERBOSE=1 openjp2/fast"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/lib/openjp2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/lib/openjp2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/lib/openjp2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opj_decompress">
+				<Option output="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/bin/opj_decompress.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPJ_EXPORTS"/>
+					<Add directory="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/lib/openjp2"/>
+					<Add directory="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/common"/>
+					<Add directory="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2"/>
+					<Add directory="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/bin/common"/>
+					<Add directory="D:/msys64/mingw64/include"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include/c++/6.2.0"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include/c++/6.2.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include/c++/6.2.0/backward"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/include"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/include-fixed"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/jp2/Makefile&quot;  VERBOSE=1 opj_decompress"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/jp2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/jp2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/jp2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opj_decompress/fast">
+				<Option output="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/bin/opj_decompress.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPJ_EXPORTS"/>
+					<Add directory="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/lib/openjp2"/>
+					<Add directory="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/common"/>
+					<Add directory="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2"/>
+					<Add directory="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/bin/common"/>
+					<Add directory="D:/msys64/mingw64/include"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include/c++/6.2.0"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include/c++/6.2.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include/c++/6.2.0/backward"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/include"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/include-fixed"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/jp2/Makefile&quot;  VERBOSE=1 opj_decompress/fast"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/jp2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/jp2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/jp2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opj_compress">
+				<Option output="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/bin/opj_compress.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPJ_EXPORTS"/>
+					<Add directory="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/lib/openjp2"/>
+					<Add directory="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/common"/>
+					<Add directory="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2"/>
+					<Add directory="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/bin/common"/>
+					<Add directory="D:/msys64/mingw64/include"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include/c++/6.2.0"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include/c++/6.2.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include/c++/6.2.0/backward"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/include"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/include-fixed"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/jp2/Makefile&quot;  VERBOSE=1 opj_compress"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/jp2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/jp2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/jp2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opj_compress/fast">
+				<Option output="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/bin/opj_compress.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPJ_EXPORTS"/>
+					<Add directory="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/lib/openjp2"/>
+					<Add directory="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/common"/>
+					<Add directory="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2"/>
+					<Add directory="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/bin/common"/>
+					<Add directory="D:/msys64/mingw64/include"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include/c++/6.2.0"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include/c++/6.2.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include/c++/6.2.0/backward"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/include"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/include-fixed"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/jp2/Makefile&quot;  VERBOSE=1 opj_compress/fast"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/jp2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/jp2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/jp2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opj_dump">
+				<Option output="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/bin/opj_dump.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPJ_EXPORTS"/>
+					<Add directory="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/lib/openjp2"/>
+					<Add directory="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/common"/>
+					<Add directory="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2"/>
+					<Add directory="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/bin/common"/>
+					<Add directory="D:/msys64/mingw64/include"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include/c++/6.2.0"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include/c++/6.2.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include/c++/6.2.0/backward"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/include"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/include-fixed"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/jp2/Makefile&quot;  VERBOSE=1 opj_dump"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/jp2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/jp2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/jp2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opj_dump/fast">
+				<Option output="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/bin/opj_dump.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPJ_EXPORTS"/>
+					<Add directory="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/lib/openjp2"/>
+					<Add directory="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/common"/>
+					<Add directory="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2"/>
+					<Add directory="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/bin/common"/>
+					<Add directory="D:/msys64/mingw64/include"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include/c++/6.2.0"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include/c++/6.2.0/x86_64-w64-mingw32"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include/c++/6.2.0/backward"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/include"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../include"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/include-fixed"/>
+					<Add directory="D:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/jp2/Makefile&quot;  VERBOSE=1 opj_dump/fast"/>
+					<CompileFile command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/jp2/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/jp2/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake-build-debug/src/bin/jp2/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/bin/common/color.c">
+			<Option target="opj_decompress"/>
+			<Option target="opj_compress"/>
+			<Option target="opj_dump"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/bin/common/color.h">
+			<Option target="opj_decompress"/>
+			<Option target="opj_compress"/>
+			<Option target="opj_dump"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/bin/common/opj_getopt.c">
+			<Option target="opj_decompress"/>
+			<Option target="opj_compress"/>
+			<Option target="opj_dump"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/bin/common/opj_getopt.h">
+			<Option target="opj_decompress"/>
+			<Option target="opj_compress"/>
+			<Option target="opj_dump"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/bin/common/opj_string.h">
+			<Option target="opj_decompress"/>
+			<Option target="opj_compress"/>
+			<Option target="opj_dump"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/bin/jp2/convert.c">
+			<Option target="opj_decompress"/>
+			<Option target="opj_compress"/>
+			<Option target="opj_dump"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/bin/jp2/convert.h">
+			<Option target="opj_decompress"/>
+			<Option target="opj_compress"/>
+			<Option target="opj_dump"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/bin/jp2/convertbmp.c">
+			<Option target="opj_decompress"/>
+			<Option target="opj_compress"/>
+			<Option target="opj_dump"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/bin/jp2/convertpng.c">
+			<Option target="opj_decompress"/>
+			<Option target="opj_compress"/>
+			<Option target="opj_dump"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/bin/jp2/converttif.c">
+			<Option target="opj_decompress"/>
+			<Option target="opj_compress"/>
+			<Option target="opj_dump"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/bin/jp2/index.c">
+			<Option target="opj_decompress"/>
+			<Option target="opj_compress"/>
+			<Option target="opj_dump"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/bin/jp2/index.h">
+			<Option target="opj_decompress"/>
+			<Option target="opj_compress"/>
+			<Option target="opj_dump"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/bin/jp2/opj_compress.c">
+			<Option target="opj_compress"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/bin/jp2/opj_decompress.c">
+			<Option target="opj_decompress"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/bin/jp2/opj_dump.c">
+			<Option target="opj_dump"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/bio.c">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/bio.h">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/cio.c">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/cio.h">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/dwt.c">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/dwt.h">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/event.c">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/event.h">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/function_list.c">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/function_list.h">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/image.c">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/image.h">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/invert.c">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/invert.h">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/j2k.c">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/j2k.h">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/jp2.c">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/jp2.h">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/mct.c">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/mct.h">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/mqc.c">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/mqc.h">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/mqc_inl.h">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/openjpeg.c">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/openjpeg.h">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/opj_clock.c">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/opj_clock.h">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/opj_codec.h">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/opj_includes.h">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/opj_intmath.h">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/opj_malloc.c">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/opj_malloc.h">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/opj_stdint.h">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/pi.c">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/pi.h">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/sparse_array.c">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/sparse_array.h">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/t1.c">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/t1.h">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/t2.c">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/t2.h">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/tcd.c">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/tcd.h">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/tgt.c">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/tgt.h">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/thread.c">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/thread.h">
+			<Option target="openjp2"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/LICENSE">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake/CTestCustom.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake/EnsureFileInclude.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake/TestLargeFiles.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake/TestFileOffsetBits.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake/TestFileOffsetBits.c">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake/TestLargeFiles.c.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake/OpenJPEGConfig.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake/OpenJPEGCPack.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/cmake/FindLCMS2.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\lib\"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/opj_config.h.cmake.in">
+			<Option virtualFolder="CMake Files\src\lib\openjp2\"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/opj_config_private.h.cmake.in">
+			<Option virtualFolder="CMake Files\src\lib\openjp2\"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/lib/openjp2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\lib\openjp2\"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/bin/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bin\"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/bin/common/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bin\common\"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/bin/common/opj_apps_config.h.cmake.in">
+			<Option virtualFolder="CMake Files\src\bin\common\"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/bin/jp2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bin\jp2\"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/src/bin/wx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\bin\wx\"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/thirdparty/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\thirdparty\"/>
+		</Unit>
+		<Unit filename="C:/Users/dkruger/git/EE553_2017F/session14/openjpeg-2.3.0/wrapping/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\wrapping\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

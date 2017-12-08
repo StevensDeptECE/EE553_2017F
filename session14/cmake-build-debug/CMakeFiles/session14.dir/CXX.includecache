@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/dkruger/git/EE553_2017F/session14/Account.cpp
+Account.h
+C:/Users/dkruger/git/EE553_2017F/session14/Account.h
+
+C:/Users/dkruger/git/EE553_2017F/session14/Account.h
+
+C:/Users/dkruger/git/EE553_2017F/session14/main.cpp
+iostream
+-
+Account.h
+C:/Users/dkruger/git/EE553_2017F/session14/Account.h
+

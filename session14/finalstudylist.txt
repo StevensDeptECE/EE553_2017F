@@ -1,0 +1,10 @@
+template functions
+template classes
+exceptions
+	try...catch
+	throw
+
+constness in methods
+
+f() const
+
