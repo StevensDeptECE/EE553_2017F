@@ -12,8 +12,12 @@ int main() {
 	a.addFirst(4); // 4 1 3
 	a.addLast(1); // 4 1 3 1
 	a.removeFirst(); // 1 3 1
+	a[1] = 19;
 	cout << a << '\n';
 	f();
+	LinkedList<int> c = a; // call copy constructor
+	cout << c << '\n';
+	
 	LinkedList<string> b;
 	b.addFirst("hello");
 	b.addLast("goodbye");

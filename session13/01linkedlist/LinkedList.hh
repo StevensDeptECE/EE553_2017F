@@ -1,18 +1,22 @@
 #pragma once
-
 #include <iostream>
 
 template<typename T>
-class LinkedList {
+class LinkedList { // LinkedList<int>
 private:
-	class Node {
+	class Node { // LinkedList<T>::Node
 	public:
 		Node* next;
 		T     val;
 		Node(Node* next, const T& v)
 			: next(next), val(v) {}
 	};
-	Node* head;
+	Node* head; // sizeof(LinkedList) == sizeof(Node*)
+	Node* last(Node* p) {
+    for ( ; p->next != nullptr; p = p->next)
+			;
+		return p;
+	}
 public:
 	LinkedList() {
 		head = nullptr;
@@ -20,7 +24,7 @@ public:
 	void addFirst(const T& v) {
 #if 0
 		Node* temp = new Node();
-		(*temp).next = head;
+		(*temp).next = head;//		temp->next = head;
 		temp->val = v;
 		head = temp;
 #endif
@@ -32,11 +36,8 @@ public:
 			head = new Node(nullptr, v);
 			return;
 		}
-		Node* p;
-    for (p = head; p->next != nullptr; p = p->next)
-			;
 		// p should be pointing to last element
-		p->next = new Node(nullptr, v);
+		last(head)->next = new Node(nullptr, v);
 	}
 
 	void removeFirst() {
@@ -45,10 +46,11 @@ public:
 		delete temp;
 	}
 	
-	friend std::ostream& operator<<(std::ostream& s,
+	friend std::ostream
+	& operator<<(std::ostream& s,
 														 const LinkedList& list) {
-		for (Node* p = list.head; p != nullptr; p = p->next) {
-      s << p->val;
+		for (Node* p = list.head; p != nullptr;  p = p->next) {
+      s << p->val << ' ';
 		}
 		return s;
 	}

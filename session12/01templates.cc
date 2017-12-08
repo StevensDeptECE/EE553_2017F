@@ -14,13 +14,13 @@ double f(double x) {
 
 int main() {
 	int y = f(2);
-	cout << "\n";
+	cout << y << "\n";
 
 	double y2 = f(2.5);
-	cout << "\n";
+	cout << y2 << "\n";
 	
 	float y3 = f(2.2f);
-	cout << "\n";
+	cout << y3 << "\n";
 	
 	//	cout << y << " " << y2 << '\n';
 }

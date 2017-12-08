@@ -4,5 +4,5 @@ using namespace std;
 #include "LinkedList.cc"
 
 void f() {
-	LinkedList<float> a;
+	LinkedList<int> a;
 }
